@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Calculadora de IMC</h1>
+        <h4>Índice de Massa Corporal</h4>
+    
+        <div class="imc">
+            <label>Digite sua altura</label>
+            <input type="number" id="altura" placeholder="Altura em centímetros">
+    
+            <label>Digite seu peso</label>
+            <input type="number" id="peso" placeholder="Peso atual">
+    
+            <p><button type="submit" onclick="somar()">CALCULAR</button></p>
+    
+            <div class="resultado">
+                <p id="resultado"></p>
+                <p id="verificar"></p>
+            </div>
+        </div>
+    </main>
+
+     <!-- Tabela IMC
+     Entre 17 e 18,49    Abaixo do peso
+     Entre 18,5 e 24,99  Peso normal
+     Entre 25 e 29,99    Acima do peso
+     Entre 30 e 34,99    Obesidade I
+     Entre 35 e 39,99    Obesidade II
+     Abaixo de 17        Muito abaixo do peso -->
+     
+
+</body>
+</html>

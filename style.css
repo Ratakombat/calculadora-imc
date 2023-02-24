@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI';
+    margin: 10px;
+    background-color: rgb(84, 101, 183);
+    font-size: 22pt;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.imc {
+    text-align: left;
+    display: grid;
+}
+
+.imc > label {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14pt;
+}
+
+
+button {
+
+    font-size: 12pt;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(84, 101, 183);
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background-color: rgb(7, 7, 95);
+}
+
+.resultado {
+    margin-top: -20px;
+}
